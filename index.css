@@ -1,0 +1,23 @@
+body{
+padding: 200px;
+background-image:url("https://cdn.shopify.com/s/files/1/0285/1316/products/w0541_1s_Peony-bouquet-blue-beige-white-blossom-seamless-wallpaper-Wild-_-Wonderful_Repeating-Pattern-Sample-1.jpg?v=1604091558");
+}
+
+.font{
+    padding-top: 50px;
+    font-size: 60px;
+    font-family: fantasy;
+}
+
+label{
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.div{
+    background-color: white;
+    opacity: 0.7;
+    color: black;
+    height: 320px;
+    border-radius: 10px;
+}

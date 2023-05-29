@@ -1,0 +1,26 @@
+#login{
+  height: 400px;
+  width: 25%;
+  background-color:#95d2cb;
+  border-radius: 10px;
+}
+
+.img{
+width: 300px;
+height:200px;
+}
+
+.name{
+    font-family: 'Abril Fatface', cursive;
+}
+
+body{
+  background-image:url("https://marketplace.canva.com/EAFCO6pfthY/1/0/1600w/canva-blue-green-watercolor-linktree-background-F2CyNS5sQdM.jpg");
+  }
+
+.po{
+  font-size: 50px;
+  font-family: 'Libre Baskerville', serif;
+  padding-top: 15px;
+}
+

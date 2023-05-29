@@ -1,0 +1,31 @@
+#output{
+    background-color: white;
+    border-radius: 10px;
+    border-top: 10px solid #b7dde6;
+    padding: 10px;
+    float:none;
+    text-align: center;
+}
+
+.po{
+    font-size: 50px;
+    font-family: 'Libre Baskerville', serif;
+    padding-top: 15px;
+    border-color: #F6C391;
+  }
+
+#body{
+background-image: url("https://marketplace.canva.com/EAE6ct-7FQY/1/0/1600w/canva-blue-minimalist-desktop-wallpaper-7vuV8a097eU.jpg");
+color:#D25380;
+
+}
+
+#send{
+    width: 300px;
+    background-color: #b7dde6;
+}
+
+#player1_name, #player2_name{
+    display: inline-block;
+    margin-left: 20px;
+}

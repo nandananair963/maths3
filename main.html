@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>MATH QUIZ GAME</title>
+        <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/227/227933.png">
+        <link rel="stylesheet" href="main.css">
+        <script src="main.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <center>
+        <h1 class="po">Math Quiz Game</h1>
+        <br>
+            <br>
+            <div class="container" id="login">
+                <h1 class="name">LOGIN</h1>
+                <hr>
+               <div class="player1">
+                <h1>Player 1</h1>
+                <h4>Username:</h4>
+                <input id="input1" placeholder="Enter Name">
+               </div>
+               
+               <div class="player2">
+                <h1>Player 2</h1>
+                <h4>Username:</h4>
+                <input id="input2" placeholder="Enter Name">
+               </div>
+               <br>
+               <button class="lo btn btn-info" onclick="addUser()">Login</button>
+            </div>
+        </center>
+    </body>
+
+    <script>
+        function addUser(){
+            player1_name = document.getElementById("input1").value;
+            player2_name = document.getElementById("input2").value;
+            
+            localStorage.setItem("player1_name", player1_name);
+            localStorage.setItem("player2_name", player2_name);
+
+            window.location="game.html";
+        }
+    </script>
+</html>

@@ -1,0 +1,37 @@
+<head>
+    <title>MATH QUIZ GAME</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/227/227933.png">
+    <link rel="stylesheet" href="game.css">
+    <script src="game.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+</head>
+<body id="body">
+    <h4 id="player1_name"></h4> <span id="player1_score"></span>
+    <br>
+    <h4 id="player2_name"></h4> <span id="player2_score"></span>
+
+    <div class="container">
+        <center>
+            <h2 class="po">Math Quiz Game</h2>
+            <h3 id="player_question"></h3>
+            <h3 id="player_answer"></h3>
+            <div id="output"></div>
+            <br>
+            <h4>Number 1</h4>
+            <input id="number1" size="100">
+            <br><br>
+            <h4>Number 2</h4>
+            <input id="number2" size="100">
+            <br><br>
+            <button id="send" onclick="send()">Send</button>
+        </center>
+    </div>
